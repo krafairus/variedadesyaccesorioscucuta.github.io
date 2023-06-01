@@ -65,7 +65,6 @@ html,body{height: 100%;}
   opacity: 0;
 }
 
-/* section-header */
 .section-header{
     position: relative;
     text-align: center;
@@ -75,19 +74,13 @@ html,body{height: 100%;}
     font-weight: 500;
 }
 .section-header h2 span{text-transform: lowercase;}
-/* section-header */
 
-/*=============Style css=========*/
-
-/*-------------------------------------
-        2. Top-area
---------------------------------------*/
 nav.navbar.bootsnav {
     background-color: transparent;
     border-bottom: transparent;
 }
 .wrap-sticky nav.navbar.bootsnav.sticked {background-color: #fff;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
-/*.navbar-brand*/
+
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
     color: #616060;
@@ -99,9 +92,7 @@ nav.navbar.bootsnav {
 .navbar-header a.navbar-brand span{display: inline-block;color:#e99c2e;text-transform:capitalize;}
 
 .wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:hover,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:focus {padding:30px 0px;}
-/*.navbar-brand*/
 
-/*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
     color: #616060;
     font-size: 16px;
@@ -125,9 +116,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     margin-left: 15px;
 }
 .wrap-sticky nav.navbar.bootsnav.sticked ul.nav > li > a{padding:30px 25px;}
-/*.nav li*/
 
-/*.menu-ui-design*/
 .menu-ui-design{overflow-y:scroll;height: 350px;}
 .menu-ui-design::-webkit-scrollbar {
     width:5px;
@@ -138,9 +127,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 .menu-ui-design::-webkit-scrollbar-thumb {
   background-color: #e99c2e;
 }
-/*.menu-ui-design*/
 
-/*.attr-nav*/
 .attr-nav {
     position: relative;
     top:5px;
@@ -153,9 +140,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 }
 .attr-nav > ul > li > a:hover{color: #e99c2e;}
 .wrap-sticky nav.navbar.bootsnav.sticked .attr-nav > ul > li > a {padding:28px 15px;}
-/*.attr-nav*/
 
-/*badge*/
 .badge {
     background-color: #e99c2e;
     border: 2px solid #e99c2e;
@@ -166,9 +151,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     height: 20px;
     padding-top: 3px;
 }
-/*.badge*/
 
-/*.navbar-toggle */
 nav.navbar.bootsnav .navbar-toggle {
     position: relative;
     background-color: transparent;
@@ -177,9 +160,7 @@ nav.navbar.bootsnav .navbar-toggle {
     top: 0;
 }
 nav.navbar.bootsnav .navbar-toggle i{color: #e99c2e;}
-/*.navbar-toggle */
 
-/*.cart-list*/
 ul.dropdown-menu.cart-list {
     height: 232px;
     overflow-y: scroll;
@@ -250,7 +231,7 @@ ul.cart-list > li.total {
     text-transform: capitalize;
     border-radius: 3px;
 }
-/* Estilos del botón personalizado */
+
 .custom-button {
   display: inline-block;
   padding: 10px 20px;
@@ -274,9 +255,6 @@ ul.cart-list > li.total {
   box-shadow: 0 0 5px rgba(233, 156, 46, 0.5);
 }
 
-/*.cart-list*/
-
-/*.packages-price */
 .packages-price p{
     position: relative;
     color: #616060;
@@ -289,13 +267,7 @@ ul.cart-list > li.total {
     font-weight: 500;
 }
 .packages-price del{margin-left: 10px;}
-/*.packages-price */
 
-
-
-/*-------------------------------------
-        3.  Welcome-hero
---------------------------------------*/
 .welcome-hero {
     position: relative;
     z-index: 1;
@@ -311,7 +283,6 @@ ul.cart-list > li.total {
 .single-slide-item.slide2{background:transparent;}
 .single-slide-item.slide3{background:transparent;}
 
-/*welcome-hero-content*/
 .single-welcome-hero{
     display: flex;
     align-items: center;
@@ -381,9 +352,7 @@ ul.cart-list > li.total {
     color: #e99c2e;
     border: 1px solid #e99c2e;
 }
-/*welcome-hero-content*/
 
-/* .carousel-indicators */
 .carousel-indicators {bottom: 4.5%;}
 .carousel-indicators li {
     position: relative;
@@ -422,9 +391,7 @@ ul.cart-list > li.total {
     background-color: transparent;
     border:1px solid #e99c2e;
 }
-/* .carousel-indicators */
 
-/* .carousel-fade */
 .carousel-fade .carousel-inner .item {
   -webkit-transition-property: opacity;
   transition-property: opacity;
@@ -450,11 +417,7 @@ ul.cart-list > li.total {
 .carousel-fade .carousel-control {
   z-index: 2;
 }
-/* .carousel-fade */
 
-/*-------------------------------------
-        5. New-arrivals 
---------------------------------------*/
 .new-arrivals {padding:85px 0 70px;}
 .new-arrivals-content{margin-top: 80px;}
 .new-arrival-cart .arrival-review {
@@ -544,9 +507,6 @@ ul.cart-list > li.total {
 }
 .single-new-arrival:hover h4 a{color:#e99c2e;}
 
-/*-------------------------------------
-        6. Sofa-coolection
---------------------------------------*/
 #sofa-coleccion {
     position: relative;
     z-index: -1;
@@ -554,7 +514,7 @@ ul.cart-list > li.total {
 .sofa-coleccion {
     position: relative;
     display: flex;
-    flex-direction: row; /* Muestra la imagen a la derecha */
+    flex-direction: row; 
     align-items: center;
     height: 250px;
     background-position: center;
@@ -585,19 +545,19 @@ ul.cart-list > li.total {
 }
 .sofa-coleccion-txt h2 {
     font-size: 30px;
-    color: #535252; /* Cambia el color del texto a #535252 */
+    color: #535252; 
     font-weight: 700;
 }
 
 .sofa-coleccion-txt h4 {
     font-size: 16px;
-    color: #535252; /* Cambia el color del texto a #535252 */
+    color: #535252; 
     font-weight: 700;
 }
 
 .sofa-coleccion-txt p {
     font-size: 16px;
-    color: #535252; /* Cambia el color del texto a #535252 */
+    color: #535252; 
     font-weight: 500;
     margin: 25px 0 10px;
 }
@@ -605,24 +565,20 @@ ul.cart-list > li.total {
 
 .btn-cart.welcome-add-cart.sofa-coleccion-btn{height: 50px;line-height: 50px;}
 
-/* Modificaciones en las reglas CSS */
 .sofa-coleccion-img {
-    flex: 0 0 50%; /* Ocupa el 50% del espacio disponible */
+    flex: 0 0 50%; 
     background: url(../images/coleccion/redessociales.png) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 250px; /* Asegura que la imagen tenga el mismo alto que el contenedor */
+    height: 250px; 
 }
 
-/*-------------------------------------
-        7. Features
---------------------------------------*/
+
 .feature {padding:110px 0 0px;}
 
 .feature-content,.blog-content{margin-top: 75px;}
 .single-feature,.single-blog {margin-bottom:30px;}
 
-/*.single-feature-txt */
 .single-feature-txt,.single-blog-txt{margin-top: 25px;}
 .single-feature-txt p i {
     color:  #efce4a;
@@ -639,14 +595,10 @@ span.feature-review {margin-left: 10px;}
     color:  #5f5b57;
     font-weight:  400;
 }
-/*.single-feature-txt */
 
-/*-------------------------------------       
-        8.  Blog
---------------------------------------*/
+
 .blog {padding:80px 0;}
 
-/*.single-blog*/
 .single-blog{
     -webkit-transition: 0.3s linear; 
     -moz-transition: 0.3s linear; 
@@ -718,20 +670,9 @@ span.feature-review {margin-left: 10px;}
     color: #95908b;
 }
 .single-blog:hover .single-blog-txt h2 a{color: #e99c2e;}
-/*.single-blog*/
 
 /*-------------------------------------
-        9. Clients
---------------------------------------*/
-.clients {
-    background: #f8f9fd;
-    display: flex;
-    align-items: center;
-    height: 220px;
-}
-.clients .item {text-align: center;}
-/*-------------------------------------
-        10. News-letter
+informativo
 --------------------------------------*/
 .informativo{padding:120px 0 75px;}
 
@@ -766,41 +707,8 @@ span.feature-review {margin-left: 10px;}
     margin-bottom: 25px;
 }
 
-/*hm-foot-email*/
-.hm-foot-email{position: relative;}
-.foot-email-box .form-control {
-    background:#fff;
-    display: block;
-    padding:25px 15px;
-    outline:0!important;
-    box-shadow:0 5px 15px rgba(0,0,0,.2);
-    border:0;
-}
-.foot-email-box input[type="text"]{
-    font-size: 14px;
-    color: #bcb7b2;
-}
-.foot-email-subscribe {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50px;
-    height: 100%;
-    background: transparent;
-    color: #e99c2e;
-    font-size: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.foot-email-box .form-control:hover{
-    box-shadow:0 5px 15px rgba(0,0,0,.4);
-}
-/*hm-foot-email*/
-
-
 /*-------------------------------------
-        11. Footer
+11. Pie de página
 --------------------------------------*/
 .footer {
     background: #f8f9fd;
@@ -825,7 +733,7 @@ span.feature-review {margin-left: 10px;}
 .footer-social i:hover{color: #e99c2e;}
 
 /*===============================
-    Scroll Top
+Desplazarse hacia arriba
 ===============================*/
 #scroll-Top  .return-to-top {
     position: fixed;
@@ -873,9 +781,9 @@ span.feature-review {margin-left: 10px;}
     100%  {bottom:7px;}
 }
 .icono-navbar {
-    width: 49px; /* Ajusta el ancho del icono según tus necesidades */
-    height: 49px; /* Ajusta la altura del icono según tus necesidades */
-    margin-top: -12px; /* Ajusta el valor negativo para desplazar el icono hacia arriba */
+    width: 49px; 
+    height: 49px; 
+    margin-top: -12px; 
 }
 
 .buttons-container {
