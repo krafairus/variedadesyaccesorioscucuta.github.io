@@ -93,6 +93,9 @@ html,body{height: 100%;}
     font-weight: 500;
     color: red;
 }
+#about-us .col-md-6 p {
+    color: #000000; /* cambia esto al color que desees */
+}
 .section-header h2 span{text-transform: lowercase;}
 
 nav.navbar.bootsnav {
@@ -114,7 +117,7 @@ nav.navbar.bootsnav {
 .wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:hover,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:focus {padding:30px 0px;}
 
 nav.navbar.bootsnav ul.nav > li > a {
-    color: #616060;
+    color: #262525;
     font-size: 16px;
     font-weight: 500;
     text-transform: capitalize;
@@ -311,7 +314,7 @@ ul.cart-list > li.total {
     height: 920px;
 }
 .welcome-hero-txt h4 {
-    color: #998d80;
+    color: #000000;
     font-size: 24px;
     font-weight: 400;
 }
@@ -321,10 +324,15 @@ ul.cart-list > li.total {
     font-weight: 400;
     margin: 20px 0 22px;
 }
-.welcome-hero-txt p{margin: 35px 0 20px;}
+.welcome-hero-txt p{margin: 25px 0 20px;
+    color: #000000;
+    font-size: 22px;
+    line-height: 1.5;
+}
 .welcome-hero-txt .packages-price p {
     margin: 0;
     padding-left: 35px;
+    color: #000000;
 }
 .packages-price p:before {
     position:  absolute;
@@ -453,6 +461,7 @@ ul.cart-list > li.total {
     align-items: center;
     justify-content:center;
     overflow:hidden;
+    color: #000000;
 }
 .single-new-arrival-bg img{
     width:auto;
@@ -486,6 +495,7 @@ ul.cart-list > li.total {
     -ms-transition: .3s linear;
     -o-transition: .3s linear;
     transition: .3s linear;
+    color: #000000;
 }
 .single-new-arrival-bg:hover .single-new-arrival-bg-overlay{
     -webkit-transform:scale(1);
@@ -515,13 +525,13 @@ ul.cart-list > li.total {
     bottom:0px;
 }
 .single-new-arrival  h4 a{
-    color:#5f5b57;
+    color: #000000;
     font-size:16px;
     font-weight:500;
     margin:26px 0 12px;
 }
 .arrival-product-price{
-    color:#5f5b57;
+    color: red;
     font-size: 16px;
     font-weight: 400;
 }
@@ -704,7 +714,7 @@ informativo
     color: red;
 }
 .hm-foot-menu ul li a {
-    color: ##000000;
+    color: #000000;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 15px;
@@ -738,8 +748,8 @@ informativo
     height: 154px;
 }
 .hm-footer-copyright p,.hm-footer-copyright p a {
-    color: #a5adb3;
-    font-size: 14px;
+    color: #000000;
+    font-size: 18px;
     font-weight: 400;
 }
 .footer-social a i {
@@ -882,5 +892,5 @@ Desplazarse hacia arriba
 }
 
 .sjadsajaservice-item p {
-    color: #666;
+    color: #000000;
 }
