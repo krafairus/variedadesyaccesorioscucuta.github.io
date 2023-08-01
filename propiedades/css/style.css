@@ -64,14 +64,34 @@ html,body{height: 100%;}
   transition: opacity 0.3s 0.3s ease; 
   opacity: 0;
 }
+.texto-cubo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e99c2e; /* color de fondo naranja */
+    border: 1px solid #e99c2e; /* borde del mismo color que el fondo */
+    width: auto; /* ancho automático para adaptarse al contenido */
+    padding: 20px; /* añadido padding para separar el texto del borde */
+    color: #fff; /* color de texto blanco */
+    font-size: 24px; /* aumentado el tamaño de la fuente */
+    font-weight: 500; /* peso de la fuente */
+    text-transform: capitalize; /* transforma el texto */
+    border-radius: 3px; /* esquinas redondeadas */
+}
+
+.texto-cubo h2 {
+    margin: 0; /* elimina el margen del h2 para que se centre correctamente */
+    color: #fff; /* color de texto blanco */
+}
 
 .section-header{
     position: relative;
     text-align: center;
 }
 .section-header h2{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
+    color: red;
 }
 .section-header h2 span{text-transform: lowercase;}
 
@@ -297,7 +317,7 @@ ul.cart-list > li.total {
 }
 .welcome-hero-txt h2 {
     font-size: 48px;
-    color: #616060;
+    color: red;
     font-weight: 400;
     margin: 20px 0 22px;
 }
@@ -681,9 +701,10 @@ informativo
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 45px;
+    color: red;
 }
 .hm-foot-menu ul li a {
-    color: #a09e9c;
+    color: ##000000;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 15px;
@@ -836,7 +857,7 @@ Desplazarse hacia arriba
 }
 
 .mapred-text {
-    color: #333; 
+    color: red; 
     font-size: 24px; 
     font-weight: bold; 
 }
@@ -856,7 +877,7 @@ Desplazarse hacia arriba
 
 .sjadsajaservice-item h4 {
     font-size: 1.5em;
-    color: #333;
+    color: red;
     margin-bottom: 10px;
 }
 
