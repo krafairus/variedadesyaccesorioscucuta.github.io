@@ -1,0 +1,26 @@
+[
+    {
+        "logo": "img/cat-1.jpg",
+        "title": "cat 1",
+        "price": "$20.00",
+        "category": "Categoría 1",
+        "buyUrl": "http://google.com/",
+        "infoUrl": "productos/producto1.html"
+    },
+    {
+        "logo": "path-to-logo2.jpg",
+        "title": "elefante 2",
+        "price": "$30.00",
+        "category": "Categoría 2",
+        "buyUrl": "https://example.com/buy/product2",
+        "infoUrl": "productos/producto2.html"
+    },
+    {
+        "logo": "path-to-logo3.jpg",
+        "title": "dog 3",
+        "price": "$40.00",
+        "category": "Categoría 3",
+        "buyUrl": "https://example.com/buy/product3",
+        "infoUrl": "productos/producto3.html"
+    }
+]
